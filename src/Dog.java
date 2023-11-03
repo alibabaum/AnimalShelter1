@@ -1,5 +1,6 @@
 public abstract class Dog implements AdoptableAnimal {
     abstract String getBreed();
+
     private String name;
     private String description;
     private double price;
@@ -9,16 +10,19 @@ public abstract class Dog implements AdoptableAnimal {
         this.description = description;
         this.price = price;
     }
+
     @Override
-    public String getName(){
+    public String getName() {
         return name;
     }
+
     @Override
-    public String getDescription(){
+    public String getDescription() {
         return description;
     }
+
     @Override
-    public Double getPrice (){
+    public Double getPrice() {
         return price;
     }
 

@@ -4,11 +4,13 @@ public class GoldenRetriever extends Dog {
     public void setBreed(String breed) {
         this.breed = breed;
     }
-    public GoldenRetriever(String name, String description, Double price){
-        super(name,description,price);
+
+    public GoldenRetriever(String name, String description, Double price) {
+        super(name, description, price);
         this.breed = "Golden Retriever";
     }
-    public String getBreed(){
+
+    public String getBreed() {
         return breed;
     }
 }
